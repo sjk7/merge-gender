@@ -76,8 +76,16 @@ gendermap_t read_gender_file(const std::string& file_path, std::string& data) {
     const auto e = my::utils::file_open_and_read_all(file_path, data);
     MYASSERT(e.code() == std::error_code(), e.what())
 
-    const auto lines
-        = my::utils::strings::split<std::string_view>(data, "\r\n");
+    auto lf = std::string("\r\n");
+    if (data.find(lf) == std::string::npos) {
+        lf = "\n";
+    }
+    if (data.find(lf) == std::string::npos) {
+        MYASSERT(false,
+            my::utils::strings::concat("Bad line endings in file: ", file_path)
+                .c_str());
+    }
+    const auto lines = my::utils::strings::split<std::string_view>(data, lf);
     MYASSERT(lines.size() > 4, "Not enough lines in merge_from file")
 
     int line_number = 0;
@@ -199,6 +207,12 @@ void print_results(const gendermap_t& merge_into_values, const diff_t& new_ones,
     const auto difference = merged.size() - merge_into_values.size();
 
     const auto dif = new_ones.size();
+    if (dif == 0) {
+        cout << "\n ****************************\n";
+        cout << "Nothing was merged this time. Did you already merge this one?"
+             << endl;
+        cout << "\n ****************************\n\n";
+    }
     MYASSERT(difference == dif, "inconsistent sizes after merge")
     if (dif > 0) {
         cout << "During merge, there were " << new_ones.size()
@@ -252,6 +266,27 @@ void print_results(const gendermap_t& merge_into_values, const diff_t& new_ones,
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored                                                 \
     "cppcoreguidelines-pro-bounds-constant-array-index"
+int write_output_file(const gendermap_t& merged) {
+    std::fstream f;
+    const auto error = my::utils::file_open(
+        f, g_dest_file, std::ios::out | std::ios::binary);
+
+    for (const auto& pr : merged) {
+        std::string s{pr.first};
+        s += '\t';
+        s += string_from_gender(pr.second);
+        s += "\r\n";
+        f.write(s.data(),
+            static_cast<std::streamsize>(
+                s.size())); // NOLINT(bugprone-narrowing-conversions)
+    }
+    if (!f) {
+        return -1;
+    }
+    f.close();
+    return my::no_error;
+}
+
 int mymain(const int argc, char** argv) {
 
     parseArgs(argc, argv);
@@ -281,25 +316,27 @@ int mymain(const int argc, char** argv) {
          << g_dest_file << "\nwith " << merged.size() << " entries." << endl
          << endl;
 
-    const auto backup_path = my::utils::get_temp_filename();
+    const auto backup_path = my::utils::get_temp_file_path(".txt");
     const auto e = my::utils::file_move(g_dest_file, backup_path);
-    assert(e.code() == std::error_code());
+    cout << "NOTE: backup file of original file is at: " << backup_path << endl;
+    MYASSERT(e.code() == std::error_code(),
+        my::utils::strings::concat("Moving back up file from\n", g_dest_file,
+            "to\n", backup_path, "\n FAILED. Cannot continue")
+            .c_str())
 
-    std::fstream f;
-    const auto error = my::utils::file_open(
-        f, g_dest_file, std::ios::out | std::ios::binary);
-
-    for (const auto& pr : merged) {
-        std::string s{pr.first};
-        s += '\t';
-        s += genders[static_cast<int>(pr.second)];
-        s += "\r\n";
-        f.write(s.data(),
-            static_cast<std::streamsize>(
-                s.size())); // NOLINT(bugprone-narrowing-conversions)
+    const auto out_result = write_output_file(merged);
+    if (out_result != my::no_error) {
+        cerr << "An error occurred writing to the output file, attempting to "
+                "copy it back from the temp file ..."
+             << endl;
+        if (my::utils::file_move(backup_path, g_dest_file).code()
+            == std::error_code()) {
+            cerr << "Ok, moved the file back" << endl;
+        } else {
+            cerr << "The output file could not be restored after error, sorry!"
+                 << endl;
+        }
     }
-    assert(f);
-    f.close();
 
     return 0;
 }

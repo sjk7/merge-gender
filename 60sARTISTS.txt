@@ -1,0 +1,374 @@
+1910 Fruitgum Company	M
+5th Dimension	M/F
+Acker Bilk	M
+Adam Faith	M
+Amen Corner	M
+Andy Williams	M
+Angels	F
+Animals	M
+Applejacks	M
+Archies	M
+Aretha Franklin	F
+Arthur Conley	M
+Association	M/F
+B Bumble And The Stingers	M
+B.b. King	M
+B.j. Thomas	M
+Bar-kays	M
+Barbara George	F
+Barry Mcguire	M
+Barry Ryan	M
+Beach Boys	M
+Beatles	M
+Bee Gees	M
+Ben E King	M
+Bern Elliott & The Fenmen	M
+Betty Everett	F
+Bill Haley & His Comets	M
+Billy Fury	M
+Billy J. Kramer & The Dakotas	M
+Billy J. Kramer And The Dakotas	M
+Bing Crosby	M
+Blood Sweat & Tears	M
+Blues Magoos	M
+Bob Dylan	M
+Bobbie Gentry	F
+Bobby Boris Pickett	M
+Bobby Boris Pickett & The Crypt Kickers	M
+Bobby Darin	M
+Bobby Goldsboro	M
+Bobby Hebb	M
+Bobby Vee	M
+Bobby Vinton	M
+Bonzo Dog Doo-dah Band	M
+Booker T & The MGs	M
+Box Tops	M
+Brenda Lee	F
+Brenton Wood
+Brian Hyland	M
+Brian Poole & The Tremeloes	M
+Brigitte Bardot	F
+Brook Brothers	M
+Brooklyn Bridge	M
+Bruce Channel	M
+Buckinghams	M
+Buddy Holly	M
+Buffallo Springfield	M
+Byrds	M
+CRICKETS	M
+Canned Heat	M
+Carl Perkins	M
+Carole King	F
+Cascades	M
+Casinos	M
+Casuals	M
+Cat Stevens	M
+Champs	M
+Chantays	M
+Cher	F
+Chiffons	M
+Chris Andrews	M
+Chris Farlowe	M
+Chris Montez	M
+Chubby & Dee Dee	M
+Chubby Checker	M
+Chuck Berry	M
+Cilla Black	F
+Classics Iv	M
+Cliff Bennett & The Rebel Rousers	M
+Cliff Richard	M
+Connie Francis	F
+Connie Stevens	F
+Contours	M
+Cowsills	M
+Crazy World Of Arthur Brown	M
+Cream	M
+Creedence Clearwater Revival	M
+Crispian St. Peters	M
+Crystals	F
+Cuff Links	M
+Cupids Inspiration	M
+Darlene Love	F
+Dave Berry	M
+Dave Clark Five	M
+Dave Davies	M
+Dave Dee, Dozy, Beaky, Mick & Tich	M
+Del Shannon	M
+Delfonics	M
+Desmond Dekker & The Aces	M
+Diana Ross & The Supremes	F
+Dion	M
+Dionne Warwick	F
+Dixie Cups	F
+Donovan	M
+Doors	M
+Drifters	M
+Duane Eddy	M
+Dusty Springfield	F
+Easybeats	M
+Eddie Cochran	M
+Eddie Floyd	M
+Eden Kane	M
+Edwin Hawkins Singers	M/F
+Edwin Starr	M
+Elvis Presley	M
+Englebert Humperdink	M
+Equals	M
+Essex	M/F
+Etta James	F
+Everly Bros	M
+Everly Brothers	M
+Fats Domino	M
+Female Dry Vo	F
+Female Vo	F
+Five Satins	M
+Fleetwood Mac	M/F
+Flowerpot Men	M
+Floyd Cramer	M
+Flying Machine	M
+Fontella Bass	F
+Fortunes	M
+Foundations	M
+Four Seasons	M
+Four Tops	M
+Fourmost	M
+Francoise Hardy	F
+Frank Sinatra	M
+Frankie Ford	M
+Frankie Lymon & The Teenagers	M
+Freda Payne	F
+Freddie & The Dreamers	M
+Freddy Cannon	M
+GLEN CAMPBELL	M
+Gary Lewis & The Playboys	M
+Gary Puckett & The Union Gap	M
+Gaz Vo Keep Free Generic	M
+Gene Chandler	M
+Gene Pitney	M
+Georgie Fame & The Blue Flames	M
+Gerry & The Pacemakers	M
+Gjn Dry	M
+Gjn Produced	M
+Gladys Knight & The Pips	F
+Gladys Knight The Pips	F
+Glen Campbell	M
+Graham Bonney	M
+Guess Who	M
+Harpers Bizarre	M
+Helen Shapiro	F
+Herb Alpert	M
+Herb Alpert & The Tijuana Brass Band	M
+Herd	M
+Herman's Hermits	M
+Hermans Hermits	M
+Hollies	M
+Honeybus	M
+Honeycombs	M
+Hullabaloos	M
+Humble Pie	M
+Ike & Tina Turner	M/F
+Isley Brothers	M
+Ivy League	M
+J. Geils Band	M
+JOHNNY BURNETTE	M
+Jackie Deshannon	F
+Jackie Wilson	M
+James Brown	M
+James Taylor	M
+Jan & Dean	M
+Jane Birkin & Serge Gainsbourg	M/F
+Jay & The Americans	M
+Jeannie C. Riley	F
+Jeff Beck	M
+Jerry Lee Lewis	M
+Jet Harris & Tony Meehan	M
+Jim Lowe	M
+Jimi Hendrix Experience	M
+Jimmy Clanton	M
+Jimmy Jones	M
+Jimmy Ruffin	M
+Jimmy Soul	M
+Joe Cocker	M
+John Fred & His Playboy Band	M
+John Lennon	M
+Johnny & The Hurricanes	M
+Johnny Kidd & The Pirates	M
+Johnny Russell	M
+Johnny Tillotson	M
+Jonathan Richman	M
+Jose Feliciano	M
+Julie Driscoll, Brian Auger & The Trinity	M/F
+Julie London	F
+Junior Walker & The All-Stars	M
+Junior Walker & The All-stars	M
+Karen Young	F
+Keith	M
+Keith West	M
+Kenny Rogers & The First Edition	M
+Ketty Lester	F
+Kim Weston & Marvin Gaye	M/F
+Kinks	M
+Led Zeppelin	M
+Lee Dorsey	M
+Lemon Pipers	M
+Len Barry	M
+Little Eva	F
+Little Richard	M
+Lloyd Price	M
+Los Bravos	M
+Lou Christie	M
+Louis Armstrong	M
+Lovin' Spoonful	M
+Lulu	F
+M + F	M/F
+Mama Cass	F
+Mamas & The Papas	M/F
+Manfred Mann	M
+Marbles	M
+Marcels	M
+Marcie Blane	M
+Marianne Faithful	F
+Marmalade	M
+Martha Reeves & The Vandellas	F
+Marvin Gaye	M
+Marvin Gaye & Tammi Terrell	M/F
+Mary Hopkin	F
+Mary Wells	F
+Mason Williams	M
+Maurice Williams & The Zodiacs	M
+Mccoys	M
+Merseybeats	M
+Migil Five	M
+Mike Sarne	M
+Millie	F
+Mindbenders	M
+Mojos	M
+Monkees	M
+Moody Blues	M
+Move	M
+Music Explosion	M
+Nancy & Frank Sinatra	M/F
+Nancy Sinatra	F
+Napolean Xiv	M
+Nashville Teens	M
+Naturals	M
+Neil Diamond	M
+Neil Sedaka	M
+New Vaudeville Band	M/F
+Newbeats	N
+Nilsson	N
+Ohio Express M/F
+Oliver	M
+Otis Redding	M
+P J Proby	M
+Patsy Cline	F
+Paul & Paula	M/F
+Paul Anka	M
+Paul Carrack	M
+Percy Sledge	M
+Peter & Gordon	M
+Peter Sarstedt	M
+Petula Clark	F
+Phil Spector	M/F
+Pink Floyd	M
+Pp Arnold	F
+Procol Harum	M
+Procul Harum	M
+R. Dean Taylor	M
+RICKY NELSON	M
+Ramsey Lewis Trio	M
+Rascals	M
+Ray Charles	M
+Richard Harris	M
+Rick Nelson	M
+Ricky Valance	M
+Righteous Brothers	M
+Robin Gibb	M
+Rockin' Berries	F
+Roger Miller	M
+Rolling Stones	M
+Ronettes	F
+Rooftop Singers	M/F
+Roy Orbison	M
+Sam & Dave	M
+Sam Cooke	M
+Sam The Sham & The Pharoahs	M
+Sandie Shaw	F
+Santo & Johnny	M
+Scaffold	M
+Scott Mckenzie	M
+Searchers	M
+Seekers	M/F
+Shadows	M
+Shangri-Las	F
+Shelley Fabares	F
+Shirelles	F
+Shirley Bassey	F
+Shirley Ellis	F
+Shocking Blue	M/F
+Simon & Garfunkel	M
+Simon Dupree & The Big Sound	M
+Skeeter Davis	F
+Sly & The Family Stone	M
+Small Faces	M
+Smith	M
+Smokey Robinson & The Miracles	M
+Smokey Robinson / The Miracles	M
+Solomon Burke	M
+Sonny & Cher	M/F
+Spanky & Our Gang	M/F
+Spencer Davies Group	M
+Spencer Davis Group	M
+Status Quo	M
+Steam	M
+Steppenwolf	M
+Stevie Wonder	M
+Strawberry Alarm Clock	M
+Supremes	F
+Surfaris	M
+Susan Maughan	F
+Sweet Inspirations	F
+Swinging Blue Jeans	M
+Temptations	M
+Terry Stafford	M
+The Angels	F
+The Coasters	M
+The Diamonds	M
+The Everly Brothers	M
+The Fleetwoods	M/F
+The Marvelettes	F
+The Miracles	M
+The Platters	M/F
+The Skylines	M
+The Spinners	M
+Them	M
+Three Dog Night	M
+Thunderclap Newman	M
+Tokens	M
+Tom Jones	M
+Tommy Bruce	M
+Tommy James & The Shondells	M
+Tommy Roe	M
+Tony	M
+Tornados	M
+Toys	F
+Traffic	M
+Tremeloes	M
+Trini Lopez	M
+Troggs	M
+Turtles	M
+Twinkle	F
+Tymes	M
+Unit 4+2
+Van Morrison	M
+Ventures	M
+Vogues	M
+Walker Brothers	M
+Whistling Jack Smith	M
+Who	M
+William Clay & Judy Bell	M/F
+Wilson Pickett	M
+Yardbirds	M
+Young Rascals	M
+Zager & Evans	M
+Zombies	M
